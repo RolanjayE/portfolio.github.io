@@ -1,0 +1,69 @@
+/* div{
+    border: 1px solid rebeccapurple;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+}
+
+nav header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav header ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-top: 50px;
+}
+
+nav header li{
+    list-style: none;
+    padding: 1rem;
+}
+
+nav header a{
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+    color: white;
+}
+
+nav header a:hover{
+   color: blue;
+}
+
+#skills{
+    background-color: black;
+}
+
+#contact{
+    background-color: black;
+}
+
+#main p{
+    text-indent: 50px;
+}
+
+nav .menu{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 50vh;
+    background-color: black;
+    display: none;
+    z-index: 1000;
+}
+
+nav .menu-burder{
+    cursor: pointer;
+}
